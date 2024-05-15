@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  width: 100%;
+  height: 35px;
+  background-color: #023b6d;
+  display: flex;
+  position: fixed;
+  z-index: 2;
+}
+.center {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  color: white;
+  font-family: sans-serif;
+}
+.image {
+  background-color: #767679;
+  width: 125px;
+  height: 125px;
+  border-radius: 100%;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+}
+.image img {
+  margin: auto;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-card {
+  width: 300px;
+  height: 100%;
+  z-index: 3;
+  background-color: #040b14;
+  position: fixed;
+}
+.right-card h3 {
+  color: white;
+  margin-left: 57px;
+  margin-top: 150px;
+}
+.div {
+  width: 100%;
+  height: 35px;
+  background-color: #023b6d;
+}
+.links {
+  display: flex;
+}
+.radius {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  margin-left: 10px;
+  background-color: #212431;
+  display: flex;
+  justify-content: center;
+  transition: 0.3s;
+}
+.radius i {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+  padding: 5px;
+}
+.radius:hover {
+  background-color: #00a6eb;
+}
+.color h5 {
+  color: gray;
+  font-size: 20px;
+  transition: 0.2s;
+}
+.cards-links {
+  font-size: 20px;
+  margin-left: 30px;
+  transition: 0.2s;
+}
+.color h5:hover {
+  color: #00a6eb;
+}
+.color a {
+  text-decoration: none;
+  color: gray;
+  transition: 0.2s;
+  font-size: 18px;
+}
+.color a:hover {
+  color: white;
+}
+.fixed-image img {
+  display: flex;
+  justify-content: end;
+  margin-left: 300px;
+}
+.fixed-image {
+  width: 100%px;
+  height: 654px;
+  background-repeat: no-repeat;
+  margin-left: 285px;
+  background-image: url(img/layer-1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.overlay {
+  width: 100%;
+  height: 654px;
+  background-color: rgba(0, 0, 0, 0.11);
+  margin-left: -5px;
+  display: flex;
+  align-items: center;
+}
+.overlay h1 {
+  font-size: 60px;
+  font-weight: 650;
+  color: #fff;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-left: 200px;
+}
+.layer-4 {
+  position: absolute;
+  margin-left: -300px;
+  z-index: 0;
+}
+.overlay p {
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: 125px;
+  margin-left: -310px;
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+}
+.solid {
+  width: 200px;
+  border: #040b14 1.5px solid;
+  margin-top: 155px;
+  margin-left: -200px;
+}
+.backdiv {
+  width: 940px;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  margin-left: 330px;
+}
+.soliid {
+  width: 180px;
+  border: #00a6eb 2px solid;
+  margin-top: 18px;
+}
+.backdiv h6 {
+  font-size: 33px;
+  color: #023b6d;
+}
+.backdiv p {
+  margin-top: 18px;
+  font-size: 16px;
+}
+.imgdiv {
+  margin-left: 330px;
+}
+.textimg {
+  margin-left: 330px;
+  margin-top: -290px;
+}
+.textimg h3 {
+  color: #023b6d;
+}
+.informations i {
+  font-size: 15px;
+  font-weight: 400;
+  color: #00a6eb;
+}
+.informations h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.oneone {
+  margin-left: 155px;
+  margin-top: -21px;
+  font-weight: 400;
+}
+.oneone1 {
+  margin-left: 105px;
+  margin-top: -22px;
+  font-weight: 400;
+}
+.phone {
+  margin-left: 120px;
+  margin-top: -20px;
+  font-weight: 400;
+}
+.city {
+  margin-left: 95px;
+  margin-top: -20px;
+  font-weight: 400;
+}
+.oneone2 {
+  margin-left: 70px;
+  margin-top: -22px;
+  font-weight: 400;
+}
+.oneone3 {
+  margin-left: 90px;
+  margin-top: -21px;
+  font-weight: 400;
+}
+.phone2 {
+  margin-left: 80px;
+  margin-top: -23px;
+  font-weight: 400;
+}
+.city2 {
+  margin-left: 120px;
+  margin-top: -21px;
+  font-weight: 400;
+}
+.info {
+  margin-left: 350px;
+  margin-top: -153px;
+}
+.facts h6 {
+  font-size: 33px;
+  color: #023b6d;
+}
+.facts {
+  margin-left: 330px;
+  margin-top: 100px;
+}
+.facts p {
+  margin-top: 20px;
+}
+.glass {
+  width: 100%;
+  height: 30px;
+  background-color: #fff;
+}
